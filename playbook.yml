@@ -1,0 +1,10 @@
+---
+- name: Install and configure Mysql Wordpress Nginx
+  hosts: wp_server
+  become: yes
+
+  roles:
+          - mysql
+          - wordpress
+          - nginx
+...
