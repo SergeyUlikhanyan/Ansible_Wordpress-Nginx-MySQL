@@ -1,0 +1,3 @@
+[wp_server]
+linux ansible_host="your_host IP" ansible_user="your_hostname"    ansible_ssh_private_key_file="ssh key path"
+
